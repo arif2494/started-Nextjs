@@ -1,11 +1,8 @@
-import Link from "next/link";
-import styles from "../styles/Home.module.css";
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <h1 className={styles.title}>Home Page</h1>
-      <p className={styles.text}>
+      <h1>About</h1>
+      <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
         accusamus tempora. Dolore eligendi, blanditiis recusandae perspiciatis
         quisquam architecto consequuntur dolores labore vitae facilis quibusdam
@@ -13,7 +10,7 @@ export default function Home() {
         necessitatibus, aperiam eius quaerat dolorum. Odit similique facilis at
         ut nisi! Aut officia velit facilis totam alias exercitationem.
       </p>
-      <p className={styles.text}>
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque aliquid
         nostrum doloremque dolorem maiores ipsam, a dolore alias commodi eos
         minus, provident quae placeat, quas iste quam fugit repellat suscipit
@@ -21,9 +18,8 @@ export default function Home() {
         voluptatibus, quaerat deleniti eligendi quas exercitationem
         reprehenderit molestias, tempore labore illo et!
       </p>
-      <Link href='/ninjas' className={styles.btn}>
-        <a>Ninja Listing</a>
-      </Link>
     </div>
   );
-}
+};
+
+export default About;
